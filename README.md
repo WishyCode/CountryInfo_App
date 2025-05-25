@@ -11,7 +11,8 @@ A simple React Native app that fetches and displays country data from the [REST 
   - 🏳️ Flag
   - 🏙️ Capital
   - 🌎 Region
-- 🔍 Search countries by name (case-insensitive, partial matches supported)
+- 🔍 Search countries by name
+- 🌗 Theme Toggle
 - 📱 Navigate between:
   - **Home Screen** – List of countries
   - **Detail Screen** – Full details for a selected country
@@ -35,29 +36,29 @@ A simple React Native app that fetches and displays country data from the [REST 
 ---
 
 ## 🛠️ Installation & Running
-
 1. **Clone the repository**
 
-   ```bash
-   git clone <your-repo-url>
-   cd CountryInfo
-```
+  ```bash
+  git clone <your-repo-url>
+  cd CountryInfo
+  ```
 
 2. **Install dependencies**
 
-   ```bash
-   npm install
-   # OR
-   yarn install
-   ```
+  ```bash
+  npm install
+  # OR
+  yarn install
+  ```
 
 3. **Start the Metro bundler**
 
-   ```bash
-   npm start
-   # OR
-   yarn start
-   ```
+  ```bash
+  npm start
+  # OR
+  yarn start
+  ```
+
 
 4. **Run the app on Android**
 
