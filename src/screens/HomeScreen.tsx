@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { Appbar, Switch } from 'react-native-paper';
+import { useThemeToggle } from '../theme/ThemeContext';
+import { useTheme } from '@react-navigation/native';
+
 import {
   View,
   Text,
@@ -21,6 +25,7 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
   const [filtered, setFiltered] = useState<Country[]>([]);
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(true);
+  const { colors } = useTheme();
 
   useEffect(() => {
     fetch('https://restcountries.com/v3.1/all')
@@ -33,6 +38,49 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
       .catch(() => setLoading(false));
   }, []);
 
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      paddingHorizontal: 12,
+      backgroundColor: colors.background, 
+    },
+    search: {
+      backgroundColor: colors.card, 
+      padding: 10,
+      borderRadius: 10,
+      marginVertical: 10,
+      elevation: 2,
+      color: colors.text,
+    },
+    card: {
+      flexDirection: 'row',
+      backgroundColor: colors.card, 
+      padding: 12,
+      borderRadius: 12,
+      marginBottom: 10,
+      elevation: 3,
+      alignItems: 'center',
+    },
+    name: {
+      fontSize: 16,
+      fontWeight: 'bold',
+      color: colors.text,
+    },
+    info: {
+      color: colors.text,
+    },
+    centered: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    flag: {
+      width: 60,
+      height: 40,
+      borderRadius: 4,
+    },
+  });
+ 
   const handleSearch = (text: string) => {
     setSearch(text);
     const result = countries.filter(country =>
@@ -67,6 +115,7 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <TextInput
         placeholder="Search countries..."
+        placeholderTextColor={colors.text}
         style={styles.search}
         value={search}
         onChangeText={handleSearch}
@@ -81,45 +130,7 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingHorizontal: 12,
-    backgroundColor: '#f8f9fa',
-  },
-  centered: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  search: {
-    backgroundColor: '#fff',
-    padding: 10,
-    borderRadius: 10,
-    marginVertical: 10,
-    elevation: 2,
-  },
-  card: {
-    flexDirection: 'row',
-    backgroundColor: '#fff',
-    padding: 12,
-    borderRadius: 12,
-    marginBottom: 10,
-    elevation: 3,
-    alignItems: 'center',
-  },
-  flag: {
-    width: 60,
-    height: 40,
-    borderRadius: 4,
-  },
-  name: {
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-  info: {
-    color: '#555',
-  },
-});
+
+
 
 export default HomeScreen;
