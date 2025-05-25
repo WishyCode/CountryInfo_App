@@ -93,7 +93,15 @@ You're all set to explore and expand the CountryInfo app. Happy coding! 🚀
 📸 Screenshots
 Home Screen
 
+![Home Screen in Dark Mode](./assets/HomeScreenInDarkMode.jpeg)
+![Home Screen in Light Mode](./assets/HomeScreenInLightMode.jpeg)
+![Home Screen Search in Dark Mode](./assets/SearchInDarkMode.jpeg)
+![Home Screen Search in Light Mode](./assets/SearchInLightMode.jpeg)
+
 Detail Screen
+
+![Detail screen in Dark Mode](./assets/DetailScreenInDarkMode.jpeg)
+![Detail screen in Light Mode](./assets/DetailScreenInLightMode.jpeg)
 
 ---
 ## 📚 Learn More
