@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Appbar, Switch } from 'react-native-paper';
-import { useThemeToggle } from '../theme/ThemeContext';
 import { useTheme } from '@react-navigation/native';
 
 import {
