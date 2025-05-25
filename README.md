@@ -1,97 +1,115 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🌍 CountryInfo React Native App
 
-# Getting Started
+A simple React Native app that fetches and displays country data from the [REST Countries API](https://restcountries.com/).
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## ✨ Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- Display a list of countries with:
+  - 🇺🇳 Name
+  - 🏳️ Flag
+  - 🏙️ Capital
+  - 🌎 Region
+- 🔍 Search countries by name
+- 🌗 Theme Toggle
+- 📱 Navigate between:
+  - **Home Screen** – List of countries
+  - **Detail Screen** – Full details for a selected country
+- 📦 Built with:
+  - React Native
+  - React Navigation
+- ✅ Tested on Android
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## 🚀 Getting Started
 
-# OR using Yarn
-yarn start
-```
+### 📋 Prerequisites
 
-## Step 2: Build and run your app
+- [Node.js](https://nodejs.org/) & npm
+- React Native CLI (`npm install -g react-native-cli`)
+- Android Studio with emulator or a connected Android device
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+> ℹ️ For detailed setup instructions, follow the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) guide (select the **React Native CLI** tab).
 
-### Android
+---
 
-```sh
-# Using npm
-npm run android
+## 🛠️ Installation & Running
+1. **Clone the repository**
 
-# OR using Yarn
-yarn android
-```
+  ```bash
+  git clone <your-repo-url>
+  cd CountryInfo
+  ```
 
-### iOS
+2. **Install dependencies**
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+  ```bash
+  npm install
+  # OR
+  yarn install
+  ```
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+3. **Start the Metro bundler**
 
-```sh
-bundle install
-```
+  ```bash
+  npm start
+  # OR
+  yarn start
+  ```
 
-Then, and every time you update your native dependencies, run:
 
-```sh
-bundle exec pod install
-```
+4. **Run the app on Android**
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+   Make sure an Android device or emulator is running.
 
-```sh
-# Using npm
-npm run ios
+   ```bash
+   npm run android
+   # OR
+   yarn android
+   ```
+---
+## 🧩 Troubleshooting
 
-# OR using Yarn
-yarn ios
-```
+* Check that your device/emulator is running before running the app.
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+* Try cleaning the build if issues occur:
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+  ```bash
+  cd android
+  ./gradlew clean
+  cd ..
+  npm run android
+  ```
 
-## Step 3: Modify your app
+* See the [React Native Troubleshooting Guide](https://reactnative.dev/docs/troubleshooting) for more help.
 
-Now that you have successfully run the app, let's make changes!
+---
+## 🎉 Congratulations!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+You're all set to explore and expand the CountryInfo app. Happy coding! 🚀
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+```md
+📸 Screenshots
+Home Screen
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+![Home Screen in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/HomeScreenInDarkMode.jpeg?raw=true)
+![Home Screen in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/HomeScreenInLightMode.jpeg?raw=true)
+![Home Screen Search in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/SearchInDarkMode.jpeg?raw=true)
+![Home Screen Search in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/SearchInLightMode.jpeg?raw=true)
 
-## Congratulations! :tada:
+Detail Screen
+![Detail Screen in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/DetailScreenInDarkMode.jpeg?raw=true)
+![Detail Screen in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/DetailScreenInLightMode.jpeg?raw=true)
 
-You've successfully run and modified your React Native App. :partying_face:
+---
+## 📚 Learn More
 
-### Now what?
+* [React Native Docs](https://reactnative.dev/docs/getting-started)
+* [React Navigation](https://reactnavigation.org/)
+* [REST Countries API](https://restcountries.com/)
+* [Awesome React Native](https://github.com/jondot/awesome-react-native)
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+---
 
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
