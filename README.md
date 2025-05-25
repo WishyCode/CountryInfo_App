@@ -41,7 +41,7 @@ A simple React Native app that fetches and displays country data from the [REST 
    ```bash
    git clone <your-repo-url>
    cd CountryInfo
-````
+```
 
 2. **Install dependencies**
 
@@ -89,7 +89,7 @@ A simple React Native app that fetches and displays country data from the [REST 
 
 You're all set to explore and expand the CountryInfo app. Happy coding! 🚀
 
-```
+```md
 📸 Screenshots
 Home Screen
 
