@@ -93,15 +93,14 @@ You're all set to explore and expand the CountryInfo app. Happy coding! 🚀
 📸 Screenshots
 Home Screen
 
-![Home Screen in Dark Mode](assets/HomeScreenInDarkMode.jpeg)
-![Home Screen in Light Mode](assets/HomeScreenInLightMode.jpeg)
-![Home Screen Search in Dark Mode](assets/SearchInDarkMode.jpeg)
-![Home Screen Search in Light Mode](assets/SearchInLightMode.jpeg)
+![Home Screen in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/HomeScreenInDarkMode.jpeg?raw=true)
+![Home Screen in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/HomeScreenInLightMode.jpeg?raw=true)
+![Home Screen Search in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/SearchInDarkMode.jpeg?raw=true)
+![Home Screen Search in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/SearchInLightMode.jpeg?raw=true)
 
 Detail Screen
-
-![Detail screen in Dark Mode](assets/DetailScreenInDarkMode.jpeg)
-![Detail screen in Light Mode](assets/DetailScreenInLightMode.jpeg)
+![Detail Screen in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/DetailScreenInDarkMode.jpeg?raw=true)
+![Detail Screen in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/DetailScreenInLightMode.jpeg?raw=true)
 
 ---
 ## 📚 Learn More
