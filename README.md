@@ -90,18 +90,19 @@ A simple React Native app that fetches and displays country data from the [REST 
 
 You're all set to explore and expand the CountryInfo app. Happy coding! 🚀
 
-```md
 📸 Screenshots
 Home Screen
+--
 
-![Home Screen in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/HomeScreenInDarkMode.jpeg?raw=true)
-![Home Screen in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/HomeScreenInLightMode.jpeg?raw=true)
-![Home Screen Search in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/SearchInDarkMode.jpeg?raw=true)
-![Home Screen Search in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/SearchInLightMode.jpeg?raw=true)
+<img src="https://github.com/WishyCode/CountryInfo_App/blob/main/assets/HomeScreenInDarkMode.jpeg" width="200">  
+<img src="https://github.com/WishyCode/CountryInfo_App/blob/main/assets/HomeScreenInLightMode.jpeg" width="200">  
+<img src="https://github.com/WishyCode/CountryInfo_App/blob/main/assets/SearchInDarkMode.jpeg" width="200">  
+<img src="https://github.com/WishyCode/CountryInfo_App/blob/main/assets/SearchInLightMode.jpeg" width="200">
 
 Detail Screen
-![Detail Screen in Dark Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/DetailScreenInDarkMode.jpeg?raw=true)
-![Detail Screen in Light Mode](https://github.com/WishyCode/CountryInfo_App/blob/dev/assets/DetailScreenInLightMode.jpeg?raw=true)
+--
+<img src="https://github.com/WishyCode/CountryInfo_App/blob/main/assets/DetailScreenInDarkMode.jpeg" width="200">  
+<img src="https://github.com/WishyCode/CountryInfo_App/blob/main/assets/DetailScreenInLightMode.jpeg" width="200">
 
 ---
 ## 📚 Learn More
